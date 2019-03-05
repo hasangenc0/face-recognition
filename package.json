@@ -1,0 +1,31 @@
+{
+  "name": "face_recognition",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/hasangenc0/face-recognition",
+    "type": "git"
+  },
+  "author": {
+    "name": "Hasan Genc",
+    "mail": "hasangencx@hotmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "face-api.js": "^0.18.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-hot-loader": "^4.7.2",
+    "webpack": "^4.29.6",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1"
+  }
+}
