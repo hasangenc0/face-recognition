@@ -13,7 +13,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --config ./webpack.config.js --mode development",
-    "test": "nyc mocha -r test/*.spec.js"
+    "test": "nyc node_modules/mocha/bin/mocha test/*.spec.js"
   },
   "nyc": {
     "require": [
